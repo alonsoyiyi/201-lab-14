@@ -1,0 +1,74 @@
+/* TODO: Make it awesome */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fafdeb;
+}
+
+header h1 {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    margin-block: 30px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul li {
+    width: 400px;
+    background-color: #f6dfb6;
+    font-family: "Poetsen One", sans-serif;
+    border: 5px solid rgb(73, 64, 73);
+    border-radius: 25px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+header nav ul li:hover{
+   box-shadow: 0px 0px 15px 5px black;
+   cursor: pointer;
+
+}
+
+main section {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    margin-inline: 30px;
+    border: 10px solid rgb(73, 64, 73);
+    border-radius: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url('../assets/marron-c.jpg');
+}
+
+main section:hover{
+   cursor: not-allowed;
+}
+
+main section img {
+    width: 300px;
+    height: 300px;
+    border: 10px solid rgb(73, 64, 73);
+    border-radius: 25px;
+}
+
+main section img:hover{
+   border: 40px solid rgb(73, 64, 73);
+   width: 240px;
+   height: 240px;
+   cursor: pointer;
+}
+
+main #chart:hover{
+   cursor: crosshair;
+}
+
+footer{
+    font-family: "Poetsen One", sans-serif;
+}
